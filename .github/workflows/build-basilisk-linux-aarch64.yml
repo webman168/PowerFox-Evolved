@@ -31,14 +31,6 @@ jobs:
           gtk: gtk2
           arch: aarch64
           compiler: clang_lto
-        - name: GTK3 aarch64 Clang+LTO+Static libcxx
-          gtk: gtk3
-          arch: aarch64
-          compiler: clang_lto_libcxx
-        - name: GTK2 aarch64 Clang+LTO+Static libcxx
-          gtk: gtk2
-          arch: aarch64
-          compiler: clang_lto_libcxx
 
     steps:
       - name: Free Disk Space
@@ -54,22 +46,11 @@ jobs:
       - name: Copy mozconfig
         run: cp mozconfigs/linux/${{ matrix.config.arch }}/${{ matrix.config.gtk }}_unofficial_branding_${{ matrix.config.compiler }}.mozconfig .mozconfig
 
-      - name: Apply static libcxx patch
-        if: matrix.config.compiler == 'clang_lto_libcxx'
-        run: |
-          cd platform
-          git apply ../patches/static-libcxx-fix.patch
-
       - name: Update mozconfig for release branch
         if: github.ref == 'refs/heads/release'
         run: |
           sed -i 's/disable-updater/enable-updater/g' .mozconfig
           sed -i 's/disable-official-branding/enable-official-branding/g' .mozconfig
-
-      - name: Pull official branding files for release branch
-        if: github.ref == 'refs/heads/release'
-        run: |
-          cd basilisk/branding && git clone https://${{ secrets.RPMO_CLONE_CREDENTIALS }}@repo.palemoon.org/Basilisk-Dev/${{ secrets.OFFICIAL_BRANDING_REPO_NAME }}.git official
 
       - name: Update docker build script for release branch
         if: github.ref == 'refs/heads/release'

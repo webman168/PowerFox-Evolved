@@ -21,6 +21,13 @@
                           command="cmd_newNavigatorTab"
                           key="key_newNavigatorTab"
                           accesskey="&tabCmd.accesskey;"/>
+                <menu id="menu_newUserContext"
+                      label="&newUserContext.label;"
+                      accesskey="&newUserContext.accesskey;"
+                      hidden="true">
+                  <menupopup id="menu_newUserContextPopup"
+                             onpopupshowing="gContextualIdentity.populateNewTabMenu(this);"/>
+                </menu>
                 <menuitem id="menu_newNavigator"
                           label="&newNavigatorCmd.label;"
                           accesskey="&newNavigatorCmd.accesskey;"
@@ -180,7 +187,8 @@
                 <menu id="viewToolbarsMenu"
                       label="&viewToolbarsMenu.label;"
                       accesskey="&viewToolbarsMenu.accesskey;">
-                  <menupopup onpopupshowing="onViewToolbarsPopupShowing(event);">
+                  <menupopup id="view_toolbars_popup"
+                             onpopupshowing="onViewToolbarsPopupShowing(event);">
                     <menuseparator/>
                     <menuitem id="menu_customizeToolbars"
                               label="&viewCustomizeToolbar.label;"
