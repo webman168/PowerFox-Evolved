@@ -1,6 +1,0 @@
-#!/bin/sh
-BASILISK_DIR=$1
-MACH_ARG=$2
-
-cd $BASILISK_DIR
-./mach $MACH_ARG
