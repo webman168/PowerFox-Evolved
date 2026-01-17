@@ -30,11 +30,7 @@
 }
 
 #urlbar[pageproxystate="valid"] > #identity-box.chromeUI > #identity-icon-labels {
-%ifdef MOZ_OFFICIAL_BRANDING
-  color: rgb(21,150,119);
-%else
-  color: inherit;
-%endif
+  color: rgb(240,91,41);
 }
 
 #identity-icon-labels:-moz-locale-dir(ltr) {
