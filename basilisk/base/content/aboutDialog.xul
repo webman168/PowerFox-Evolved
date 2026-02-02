@@ -1,4 +1,4 @@
-<?xml version="1.0"?> <!-- -*- Mode: HTML -*- --> 
+<?xml version="1.0"?> <!-- -*- Mode: HTML -*- -->
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -131,7 +131,7 @@
 			  PowerFox Browser by Jazzzny
           </description>
           <description class="text-blurb" id="contributeDesc">
-              This browser was made possible thanks to the efforts of dbsoft, <label class="text-link" href="https://basilisk-browser.org/">the Basilisk Browser team</label>, and Mozilla developers. Learn <label class="text-link" useoriginprincipal="true" href="about:credits">who contributed</label> to this software.
+              This browser was made possible thanks to the efforts of dbsoft, Cameron Kaiser of TenFourFox, <label class="text-link" href="https://basilisk-browser.org/">the Basilisk Browser team</label>, and Mozilla developers. Learn <label class="text-link" useoriginprincipal="true" href="about:credits">who contributed</label> to this software.
           </description>
 #endif
         </vbox>
@@ -146,7 +146,7 @@
       <description id="trademark">&trademarkInfo.part1;</description>
     </vbox>
   </vbox>
-  
+
   <keyset>
     <key keycode="VK_ESCAPE" oncommand="window.close();"/>
   </keyset>
