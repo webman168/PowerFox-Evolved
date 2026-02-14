@@ -5,17 +5,19 @@
 #mk_add_options MOZ_UNIFY_BDATE=1
 
 
-#ac_add_options --host=x86_64-apple-darwin
-#ac_add_options --target=x86_64-apple-darwin
+ac_add_options --host=x86_64-apple-darwin
+ac_add_options --target=x86_64-apple-darwin
 ac_add_options --enable-application=basilisk
 #ac_add_options --with-external-source-dir=/Build/powerfox
 
 
+MACOSX_DEPLOYMENT_TARGET=10.6
 
-#MACOSX_DEPLOYMENT_TARGET=10.6
 #'CC=clang -arch x86_64 -march=core2'
 #'CXX=clang++ -arch x86_64 -march=core2'
-#MAKE=/opt/local/bin/gmake
+
+
+MAKE=/opt/local/bin/gmake
 
 
 ac_add_options --enable-jemalloc
@@ -36,7 +38,3 @@ ac_add_options --disable-webrtc
 ac_add_options --with-branding=basilisk/branding/official
 ac_add_options --with-macos-sdk=/Developer/SDKs/MacOSX10.6.sdk
 ac_add_options --with-pthreads
-
-
-
-
