@@ -14,7 +14,10 @@ Download the latest release from the [Releases](https://github.com/Jazzzny/power
 ## Building
 Requirements: MacPorts running on Mac OS X 10.5 or higher.
 
-Installed through macports: make and yasm
+Installed through macports:
+* make
+* yasm
+* a later release of python2
 
 To build PowerFox, first download the Git repo using:
 
