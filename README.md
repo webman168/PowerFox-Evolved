@@ -11,7 +11,7 @@ For more information, visit the [PowerFox website](https://powerfox.jazzzny.me).
 ## Installation
 Download the latest release from the [Releases](https://github.com/Jazzzny/powerfox-browser/releases) section on GitHub.
 
-## Building
+## Building from source
 Requirements: MacPorts running on Mac OS X 10.5 or higher.
 
 Installed through macports:
