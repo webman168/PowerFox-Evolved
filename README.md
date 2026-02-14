@@ -28,7 +28,7 @@ Then change to the `PowerFox-Evolved` directory and run:
 
 ```./mach build```
 
-The build will start.
+The build will start. Once started, it will take about 2 hours.
 
 ## Credits
 PowerFox wouldn't be possible without the Basilisk and UXP teams for their incredible work on the underlying browser code, TenFourFox for various parts of legacy Mac OS X support code, and many UXP contributors who have worked on the Mac code, including but not limited to dbsoft and WolfReiser. Thank you!
