@@ -1,4 +1,8 @@
-![PowerFox](https://github.com/user-attachments/assets/35623fd8-1887-4976-ae16-cf85ca800a8c)
+<div align="center">
+<h1 align="center">PowerFox Evolved</h1>
+
+A better version of PowerFox created by webman168.
+</div>
 
 PowerFox is a secure, modern, and open-source web browser for Mac OS X 10.6 Snow Leopard, based on the open-source UXP browser engine and Basilisk browser codebases.
 
