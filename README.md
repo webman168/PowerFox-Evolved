@@ -18,7 +18,7 @@ Installed through macports:
 * make
 * yasm
 * a later release of python 2
-* clang 17
+* clang 16
   
 To build PowerFox, first download the Git repo using:
 
