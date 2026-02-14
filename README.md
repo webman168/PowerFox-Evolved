@@ -17,8 +17,9 @@ Requirements: MacPorts running on Mac OS X 10.5 or higher.
 Installed through macports:
 * make
 * yasm
-* a later release of python2
-
+* a later release of python 2
+* clang 17
+  
 To build PowerFox, first download the Git repo using:
 
 ```git clone --recursive https://github.com/webman168/PowerFox-Evolved```
