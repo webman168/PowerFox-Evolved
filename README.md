@@ -12,6 +12,10 @@ For more information, visit the [PowerFox website](https://powerfox.jazzzny.me).
 Download the latest release from the [Releases](https://github.com/Jazzzny/powerfox-browser/releases) section on GitHub.
 
 ## Building
+Requirements: MacPorts running on Mac OS X 10.5 or higher.
+
+Installed through macports: make and yasm
+
 To build PowerFox, first download the Git repo using:
 
 ```git clone --recursive https://github.com/webman168/PowerFox-Evolved```
