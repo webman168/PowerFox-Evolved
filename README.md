@@ -14,7 +14,7 @@ Download the latest release from the [Releases](https://github.com/Jazzzny/power
 ## Building
 To build PowerFox, first download the Git repo using:
 
-```git clone --recursive https://github.com/Jazzzny/powerfox-browser```
+```git clone --recursive https://github.com/webman168/PowerFox-Evolved```
 
 Then change to the `powerfox-browser` directory and run:
 
