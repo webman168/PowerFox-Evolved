@@ -23,7 +23,7 @@ To build PowerFox, first download the Git repo using:
 
 ```git clone --recursive https://github.com/webman168/PowerFox-Evolved```
 
-Then change to the `powerfox-browser` directory and run:
+Then change to the `PowerFox-Evolved` directory and run:
 
 ```./mach build```
 
