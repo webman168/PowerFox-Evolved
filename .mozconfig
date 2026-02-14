@@ -1,0 +1,42 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+#mk_add_options MOZ_UNIFY_BDATE=1
+
+
+#ac_add_options --host=x86_64-apple-darwin
+#ac_add_options --target=x86_64-apple-darwin
+ac_add_options --enable-application=basilisk
+#ac_add_options --with-external-source-dir=/Build/powerfox
+
+
+
+#MACOSX_DEPLOYMENT_TARGET=10.6
+#'CC=clang -arch x86_64 -march=core2'
+#'CXX=clang++ -arch x86_64 -march=core2'
+#MAKE=/opt/local/bin/gmake
+
+
+ac_add_options --enable-jemalloc
+ac_add_options --disable-apple-media
+ac_add_options --enable-av1
+ac_add_options --enable-jxl
+ac_add_options --enable-bundled-fonts
+ac_add_options --enable-devtools
+ac_add_options --enable-gamepad
+ac_add_options --disable-necko-wifi
+ac_add_options --enable-optimize=-O3
+ac_add_options --enable-pie
+ac_add_options --enable-release
+ac_add_options --enable-strip
+ac_add_options --disable-tests
+ac_add_options --disable-updater
+ac_add_options --disable-webrtc
+ac_add_options --with-branding=basilisk/branding/official
+ac_add_options --with-macos-sdk=/Developer/SDKs/MacOSX10.6.sdk
+ac_add_options --with-pthreads
+
+
+
+
